@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="PathFinder / 人生之路 AI 是一个无需登录、本地优先的 AI 引导式自我理解与职业方向探索工具。"
+    />
+    <title>PathFinder / 人生之路 AI</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="PathFinder home">
+        <span class="brand-mark">P</span>
+        <span>PathFinder</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="#flow">流程</a>
+        <a href="#privacy">隐私</a>
+        <a href="#docs">文档</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">人生之路 AI</p>
+          <h1>用一场 AI 访谈，找到更适合你的人生方向。</h1>
+          <p class="hero-text">
+            无需登录。通过文字或语音回答问题，AI 从价值观、才能和兴趣中提取线索，生成温和、具体、可验证的职业探索报告。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#flow">查看 MVP 闭环</a>
+            <a class="button secondary" href="./docs/PRD.md">阅读 PRD</a>
+          </div>
+        </div>
+        <div class="interview-panel" aria-label="AI interview preview">
+          <div class="panel-header">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="chat-line ai">
+            你最尊敬或最崇拜的人是谁？为什么？
+          </div>
+          <div class="chat-line user">
+            我佩服很独立的人，因为我不喜欢人生被别人安排。
+          </div>
+          <div class="chat-line ai">
+            你说的独立，更像是经济独立、情绪独立，还是决定权独立？
+          </div>
+          <div class="local-save">本地已保存 · 默认不创建账号</div>
+        </div>
+      </section>
+
+      <section class="section" id="flow">
+        <div class="section-heading">
+          <p class="eyebrow">MVP Loop</p>
+          <h2>从问答到报告的核心闭环</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="number">01</span>
+            <h3>一次只问一个问题</h3>
+            <p>围绕价值观、才能、兴趣三组主题，优先询问具体经历，降低用户压力。</p>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <h3>文字与语音回答</h3>
+            <p>语音先转为文字，用户确认或编辑后再提交，AI 只分析最终确认内容。</p>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <h3>AI 温和追问</h3>
+            <p>当回答过短、抽象或有重要线索时，AI 最多追问两次，每次只问一个问题。</p>
+          </article>
+          <article>
+            <span class="number">04</span>
+            <h3>生成探索报告</h3>
+            <p>报告包含关键词、能力线索、适配方向、风险提醒和 7 天验证行动。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="privacy">
+        <div>
+          <p class="eyebrow">Privacy First</p>
+          <h2>本地优先，不用账号换取信任</h2>
+          <p>
+            PathFinder 的 MVP 不要求手机号、邮箱或第三方账号。问答进度、历史报告和反馈默认保存在当前设备，用户可以随时导出、导入或删除。
+          </p>
+        </div>
+        <ul class="check-list">
+          <li>无需注册即可完成完整问答</li>
+          <li>默认不长期保存原始音频</li>
+          <li>AI 分析仅基于用户确认后的文字</li>
+          <li>报告是探索建议，不是心理诊断或职业保证</li>
+        </ul>
+      </section>
+
+      <section class="section" id="docs">
+        <div class="section-heading">
+          <p class="eyebrow">Project Docs</p>
+          <h2>项目资料</h2>
+        </div>
+        <div class="doc-links">
+          <a href="./docs/PRD.md">
+            <strong>产品需求文档 PRD</strong>
+            <span>PathFinder MVP 的目标、范围、流程、数据与隐私设计。</span>
+          </a>
+          <a href="./docs/source-video-script.md">
+            <strong>源视频脚本</strong>
+            <span>“人生之路”主题灵感来源与整理后的转写内容。</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>PathFinder / 人生之路 AI</span>
+      <span>Local-first AI self-discovery MVP</span>
+    </footer>
+  </body>
+</html>
