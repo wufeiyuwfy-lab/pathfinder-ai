@@ -33,8 +33,8 @@ http://127.0.0.1:4173/
 
 Use Vercel's GitHub import flow.
 
+- Import URL: https://vercel.com/new/clone?repository-url=https://github.com/wufeiyuwfy-lab/pathfinder-ai
 - Framework preset: `Other`
 - Build command: empty
 - Output directory: `.`
 - Production branch: `main`
-
