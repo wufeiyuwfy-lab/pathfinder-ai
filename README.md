@@ -31,9 +31,11 @@ http://127.0.0.1:4173/
 
 ## Vercel Deployment
 
-Use Vercel's GitHub import flow.
+Use Vercel's existing GitHub repository import flow:
 
-- Import URL: https://vercel.com/new/clone?repository-url=https://github.com/wufeiyuwfy-lab/pathfinder-ai
+- Open https://vercel.com/new
+- Choose `Import Git Repository`
+- Select `wufeiyuwfy-lab/pathfinder-ai`
 - Framework preset: `Other`
 - Build command: empty
 - Output directory: `.`
